@@ -1,5 +1,5 @@
 function App() {
-  const s = '';
+
   return (
     <div>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
