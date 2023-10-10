@@ -56,7 +56,7 @@ jobs:
 
       # Выполняем SSH команды на сервере
       - name: Execute SSH commands
-        uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@v1.0.0
         with:
           # Секреты, как SERVER_IP, SERVER_USER и SSH_PRIVATE_KEY,
           # представляют собой зашифрованные переменные окружения, которые вы можете настроить в вашем репозитории.
