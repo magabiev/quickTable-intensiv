@@ -76,4 +76,4 @@ jobs:
             # Собираем проект
             npm run build
             # Перезапускаем сервер приложения с помощью менеджера процессов PM2
-            pm2 restart server
+            sudo service nginx restart
