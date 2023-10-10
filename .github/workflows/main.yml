@@ -21,7 +21,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '18'
 
       # Устанавливаем зависимости проекта
       - name: Install dependencies
@@ -52,7 +52,7 @@ jobs:
     steps:
       # Используется действие для исключения кода из репозитория
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Выполняем SSH команды на сервере
       - name: Execute SSH commands
