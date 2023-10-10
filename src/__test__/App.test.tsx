@@ -8,6 +8,6 @@ test('demo', () => {
 
 test('Check if text in the document', () => {
   render(<App />);
-  const text = screen.getByText('Test text text text');
+  const text = screen.getByText('Test text 1');
   expect(text).toBeInTheDocument();
 });
